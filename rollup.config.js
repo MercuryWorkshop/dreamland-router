@@ -1,4 +1,3 @@
-import { fileURLToPath } from 'node:url';
 import typescript from 'rollup-plugin-typescript2';
 
 const commonPlugins = () => [
@@ -8,7 +7,7 @@ const commonPlugins = () => [
 const configs = [
   // import
   {
-    input: 'src/index.tsx',
+    input: 'src/index.ts',
     output: {
       file: `dist/index.js`,
       format: 'esm',
@@ -19,7 +18,7 @@ const configs = [
   },
   // require
   {
-    input: 'src/index.tsx',
+    input: 'src/index.ts',
     output: {
       file: `dist/router.cjs`,
       format: 'umd',

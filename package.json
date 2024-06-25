@@ -20,11 +20,11 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "devDependencies": {
-    "dreamland": "^0.0.19",
     "esbuild": "^0.20.2",
     "esbuild-plugin-d.ts": "^1.2.3",
     "rollup": "^4.17.2",
     "rollup-plugin-typescript2": "^0.36.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "dreamland": "0.0.23-pre"
   }
 }
